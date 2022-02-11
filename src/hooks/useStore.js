@@ -1,5 +1,6 @@
+import {useContext} from 'react';
+import {StoreContext} from '../index';
 
-
-const UseContext= {
-    return Use
+export default function useStore() {
+    return useContext(StoreContext);
 }
